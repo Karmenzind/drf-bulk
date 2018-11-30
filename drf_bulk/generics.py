@@ -9,7 +9,6 @@ from . import mixins as bulk_mixins
 __all__ = [
     'BulkCreateAPIView',
     'BulkDestroyAPIView',
-    'BulkModelViewSet',
     'BulkUpdateAPIView',
     'ListBulkCreateAPIView',
     'ListBulkCreateDestroyAPIView',
@@ -17,6 +16,7 @@ __all__ = [
     'ListBulkCreateUpdateDestroyAPIView',
     'ListCreateBulkUpdateAPIView',
     'ListCreateBulkUpdateDestroyAPIView',
+    'BulkModelViewSet',
 ]
 
 
@@ -156,3 +156,4 @@ class BulkModelViewSet(bulk_mixins.BulkCreateModelMixin,
                        bulk_mixins.BulkDestroyModelMixin,
                        ModelViewSet):
     pass
+
