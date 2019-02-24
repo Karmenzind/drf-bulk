@@ -2,7 +2,7 @@
 
 Bulk utils for Django REST Framework.
 
-Inspired by and based on [django-rest-framework-bulk](https://github.com/miki725/django-rest-framework-bulk).
+Inspired by and partially based on [django-rest-framework-bulk](https://github.com/miki725/django-rest-framework-bulk). ([Why don't just fork it?]())
 
 # status
 

@@ -27,7 +27,7 @@ DEFAULTS = {
         "CREATE": {},
         "UPDATE": {},
         "DESTROY": {},
-    }
+    },
     "DEFAULT_LIST_SERIALIZER": None,
 }
 
